@@ -1,3 +1,9 @@
+.gallery {
+  position: relative;
+  width: 100%;
+  height: 7200px;
+}
+
 .gallery-image {
   position: absolute;
 
@@ -16,18 +22,18 @@
     opacity 0.25s ease;
 }
 
-.image-1  { top: 12vh;  left: 8vw; }
-.image-2  { top: 72vh;  right: 10vw; }
-.image-3  { top: 150vh; left: 22vw; }
-.image-4  { top: 225vh; right: 14vw; }
-.image-5  { top: 320vh; left: 10vw; }
-.image-6  { top: 395vh; right: 8vw; }
-.image-7  { top: 485vh; left: 28vw; }
-.image-8  { top: 565vh; right: 12vw; }
-.image-9  { top: 655vh; left: 9vw; }
-.image-10 { top: 735vh; right: 18vw; }
-.image-11 { top: 825vh; left: 24vw; }
-.image-12 { top: 910vh; right: 7vw; }
+.image-1  { top: 10vh;  left: 8vw; }
+.image-2  { top: 55vh;  right: 10vw; }
+.image-3  { top: 115vh; left: 22vw; }
+.image-4  { top: 170vh; right: 14vw; }
+.image-5  { top: 235vh; left: 10vw; }
+.image-6  { top: 290vh; right: 8vw; }
+.image-7  { top: 355vh; left: 28vw; }
+.image-8  { top: 410vh; right: 12vw; }
+.image-9  { top: 475vh; left: 9vw; }
+.image-10 { top: 530vh; right: 18vw; }
+.image-11 { top: 595vh; left: 24vw; }
+.image-12 { top: 650vh; right: 7vw; }
 
 /* ---------------- */
 /* Lightbox Overlay */
