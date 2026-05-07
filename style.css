@@ -28,3 +28,66 @@
 .image-10 { top: 735vh; right: 18vw; }
 .image-11 { top: 825vh; left: 24vw; }
 .image-12 { top: 910vh; right: 7vw; }
+
+/* ---------------- */
+/* Lightbox Overlay */
+/* ---------------- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.82);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+
+  z-index: 99999;
+}
+
+.lightbox.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-image {
+  display: block;
+
+  max-width: 88vw;
+  max-height: 88vh;
+
+  object-fit: contain;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.45);
+
+  transform: scale(0.96);
+  transition: transform 0.3s ease;
+}
+
+.lightbox.active .lightbox-image {
+  transform: scale(1);
+}
+
+.close-button {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+
+  color: white;
+  font-size: 42px;
+  font-weight: 200;
+
+  cursor: pointer;
+  user-select: none;
+
+  z-index: 100000;
+}
