@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  const images = document.querySelectorAll('.gallery-image');
+  const images = document.querySelectorAll('.gallery-image, .triple-image');
   const videos = document.querySelectorAll('.gallery-video');
 
   const lightbox = document.getElementById('lightbox');
