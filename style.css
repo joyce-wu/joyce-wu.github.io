@@ -185,3 +185,38 @@ video.gallery-image {
 
   color: black;
 }
+
+/* ---------------- */
+/* Triple Image Row */
+/* ---------------- */
+
+.triple-row {
+  position: absolute;
+
+  top: 720vh;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 2vw;
+
+  align-items: flex-start;
+}
+
+.triple-image {
+  width: 14vw;
+  height: auto;
+
+  object-fit: contain;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+.triple-image:hover {
+  opacity: 0.9;
+}
