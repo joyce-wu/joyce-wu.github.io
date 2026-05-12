@@ -87,6 +87,15 @@ video.gallery-image {
   z-index: 99999;
 }
 
+.lightbox-video {
+  display: none;
+
+  max-width: 90vw;
+  max-height: 90vh;
+
+  object-fit: contain;
+}
+
 .lightbox.active {
   opacity: 1;
   visibility: visible;
