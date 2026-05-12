@@ -36,7 +36,7 @@ video.gallery-image {
 
   cursor: pointer;
 
-  rotate: 90deg;
+  rotate: -90deg;
 
   transition: opacity 0.25s ease;
 
