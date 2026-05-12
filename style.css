@@ -8,8 +8,8 @@
   position: absolute;
 
   width: auto;
-  max-width: 24vw;
-  max-height: 48vh;
+  max-width: 28vw;
+  max-height: 56vh;
 
   height: auto;
 
@@ -34,8 +34,8 @@ video.gallery-image {
 .gallery-video {
   position: absolute;
 
-  max-width: 30vw;
-  max-height: 40vh;
+  max-width: 34vw;
+  max-height: 48vh;
 
   object-fit: cover;
 
@@ -53,35 +53,31 @@ video.gallery-image {
 }
 
 .image-1  { top: 10vh;  left: 8vw; }
-.image-2  { top: 55vh;  right: 10vw; }
-.image-3  { top: 115vh; left: 22vw; }
-.image-4  { top: 170vh; right: 14vw; }
-.image-5  { top: 235vh; left: 10vw; }
+.image-2  { top: 48vh;  right: 10vw; }
+.image-3  { top: 102vh; left: 22vw; }
+.image-4  { top: 155vh; right: 14vw; }
+.image-5  { top: 215vh; left: 10vw; }
 .image-6 {
-  top: 290vh;
+  top: 268vh;
   right: 8vw;
 
   max-width: 28vw;
 }
-.image-7  { top: 355vh; left: 28vw; }
+.image-7  { top: 328vh; left: 28vw; }
 .image-8 {
-  top: 410vh;
+  top: 385vh;
   right: 12vw;
 }
-.image-9  { top: 475vh; left: 9vw; }
-.image-10 { top: 530vh; right: 18vw; }
+.image-9  { top: 448vh; left: 9vw; }
+.image-10 { top: 505vh; right: 18vw; }
 .image-11 {
-  top: 595vh;
+  top: 565vh;
   left: 24vw;
 
   max-width: 26vw;
   max-height: 38vh;
 }
-.image-12 { top: 650vh; right: 7vw; }
-
-/* ---------------- */
-/* Lightbox Overlay */
-/* ---------------- */
+.image-12 { top: 625vh; right: 7vw; }
 
 /* ---------------- */
 /* Lightbox Overlay */
