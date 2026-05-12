@@ -22,6 +22,10 @@
     opacity 0.25s ease;
 }
 
+video.gallery-image {
+  object-fit: cover;
+}
+
 .image-1  { top: 10vh;  left: 8vw; }
 .image-2  { top: 55vh;  right: 10vw; }
 .image-3  { top: 115vh; left: 22vw; }
@@ -29,7 +33,13 @@
 .image-5  { top: 235vh; left: 10vw; }
 .image-6  { top: 290vh; right: 8vw; }
 .image-7  { top: 355vh; left: 28vw; }
-.image-8  { top: 410vh; right: 12vw; }
+.image-8 {
+  top: 410vh;
+  right: 12vw;
+
+  max-width: 32vw;
+  max-height: none;
+}
 .image-9  { top: 475vh; left: 9vw; }
 .image-10 { top: 530vh; right: 18vw; }
 .image-11 { top: 595vh; left: 24vw; }
