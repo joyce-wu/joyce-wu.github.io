@@ -107,12 +107,25 @@ video.gallery-image {
   visibility: visible;
 }
 
-.lightbox-image,
-.lightbox-video {
+.lightbox-image {
   display: none;
 
   max-width: 90vw;
   max-height: 90vh;
+
+  object-fit: contain;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.45);
+}
+
+.lightbox-video {
+  display: none;
+
+  rotate: -90deg;
+
+  max-width: 85vh;
+  max-height: 85vw;
 
   object-fit: contain;
 
