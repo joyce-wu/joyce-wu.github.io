@@ -26,6 +26,29 @@ video.gallery-image {
   object-fit: cover;
 }
 
+.gallery-video {
+  position: absolute;
+
+  max-width: 30vw;
+  max-height: 40vh;
+
+  cursor: pointer;
+
+  object-fit: cover;
+
+  transform: rotate(90deg);
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+
+  z-index: 1;
+}
+
+.gallery-video:hover {
+  opacity: 0.92;
+}
+
 .image-1  { top: 10vh;  left: 8vw; }
 .image-2  { top: 55vh;  right: 10vw; }
 .image-3  { top: 115vh; left: 22vw; }
