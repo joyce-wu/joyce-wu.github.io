@@ -57,7 +57,12 @@ video.gallery-image {
 .image-3  { top: 115vh; left: 22vw; }
 .image-4  { top: 170vh; right: 14vw; }
 .image-5  { top: 235vh; left: 10vw; }
-.image-6  { top: 290vh; right: 8vw; }
+.image-6 {
+  top: 290vh;
+  right: 8vw;
+
+  max-width: 28vw;
+}
 .image-7  { top: 355vh; left: 28vw; }
 .image-8 {
   top: 410vh;
