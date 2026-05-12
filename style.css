@@ -26,6 +26,11 @@ video.gallery-image {
   object-fit: cover;
 }
 
+.vertical-image {
+  max-width: 20vw;
+  max-height: 56vh;
+}
+
 .gallery-video {
   position: absolute;
 
