@@ -67,6 +67,10 @@ video.gallery-image {
 /* Lightbox Overlay */
 /* ---------------- */
 
+/* ---------------- */
+/* Lightbox Overlay */
+/* ---------------- */
+
 .lightbox {
   position: fixed;
   inset: 0;
@@ -87,6 +91,12 @@ video.gallery-image {
   z-index: 99999;
 }
 
+.lightbox.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-image,
 .lightbox-video {
   display: none;
 
@@ -94,30 +104,9 @@ video.gallery-image {
   max-height: 90vh;
 
   object-fit: contain;
-}
-
-.lightbox.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.lightbox-image {
-  display: block;
-
-  max-width: 88vw;
-  max-height: 88vh;
-
-  object-fit: contain;
 
   box-shadow:
     0 20px 60px rgba(0,0,0,0.45);
-
-  transform: scale(0.96);
-  transition: transform 0.3s ease;
-}
-
-.lightbox.active .lightbox-image {
-  transform: scale(1);
 }
 
 .close-button {
@@ -130,18 +119,9 @@ video.gallery-image {
   font-weight: 200;
 
   cursor: pointer;
-  user-select: none;
 
   z-index: 100000;
 }
-
-/* ---------------- */
-/* Site Title       */
-/* ---------------- */
-
-/* ---------------- */
-/* Site Title       */
-/* ---------------- */
 
 /* ---------------- */
 /* Site Title       */
