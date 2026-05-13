@@ -131,7 +131,7 @@ video.gallery-image {
 }
 
 .image-13 {
-  top: 620vh;
+  top: 720vh;
   right: 23vw;
 }
 
@@ -154,7 +154,7 @@ video.gallery-image {
 }
 
 .triple-image {
-  width: 9vw;
+  width: 11vw;
   height: auto;
 
   object-fit: contain;
