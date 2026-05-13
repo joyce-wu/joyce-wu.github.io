@@ -41,8 +41,6 @@ video.gallery-image {
 
   cursor: pointer;
 
-  rotate: -90deg;
-
   transition: opacity 0.25s ease;
 
   z-index: 1;
@@ -73,6 +71,7 @@ video.gallery-image {
 .image-8 {
   top: 385vh;
   right: 12vw;
+  rotate: -90deg;
 }
 .image-9  { top: 448vh; left: 9vw; }
 .image-10 { top: 505vh; right: 18vw; }
@@ -82,6 +81,7 @@ video.gallery-image {
 
   max-width: 26vw;
   max-height: 38vh;
+  rotate: -90deg;
 }
 .image-12 { top: 625vh; right: 7vw; }
 
