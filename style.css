@@ -115,7 +115,7 @@ video.gallery-image {
 .image-10 {
   top: 456vh;
   right: 18vw;
-  max-width: 28vw;
+  max-width: 20vw;
   max-height: 55vh;
 }
 
@@ -135,7 +135,7 @@ video.gallery-image {
 }
 
 .image-13 {
-  top: 720vh;
+  top: 730vh;
   right: 23vw;
   max-width: 23vw;
   max-height: 45vh;
@@ -148,7 +148,7 @@ video.gallery-image {
 .triple-row {
   position: absolute;
 
-  top: 600vh;
+  top: 610vh;
   left: 50%;
 
   transform: translateX(-50%);
