@@ -231,16 +231,11 @@ video.gallery-image {
     0 20px 60px rgba(0,0,0,0.45);
 }
 
-.lightbox-video-no-rotation {
-  display: none;
+.lightbox-video.no-rotation {
+  rotate: 0deg;
 
-  max-width: 85vh;
-  max-height: 85vw;
-
-  object-fit: contain;
-
-  box-shadow:
-    0 20px 60px rgba(0,0,0,0.45);
+  max-width: 90vw;
+  max-height: 90vh;
 }
 
 .close-button {
