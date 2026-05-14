@@ -104,8 +104,6 @@ video.gallery-image {
 .image-8 {
   top: 345vh;
   right: 12vw;
-
-  rotate: -90deg;
 }
 
 .image-9  {
@@ -126,8 +124,6 @@ video.gallery-image {
 
   max-width: 30vw;
   max-height: 42vh;
-
-  rotate: -90deg;
 }
 
 .image-12 {
