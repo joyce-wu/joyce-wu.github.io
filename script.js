@@ -73,11 +73,17 @@ document.addEventListener('DOMContentLoaded', () => {
   closeButton.addEventListener('click', closeLightbox);
 
   lightbox.addEventListener('click', (e) => {
-
-    if (e.target === lightbox) {
+  
+    const clickedImage =
+      e.target === lightboxImage;
+  
+    const clickedVideo =
+      e.target === lightboxVideo;
+  
+    if (!clickedImage && !clickedVideo) {
       closeLightbox();
     }
-
+  
   });
 
   document.addEventListener('keydown', (e) => {
