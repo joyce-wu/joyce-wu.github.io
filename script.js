@@ -39,6 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       lightboxImage.style.display = 'none';
       lightboxVideo.style.display = 'block';
+      if (video.classList.contains('no-rotate-lightbox')) {
+        lightboxVideo.classList.add('no-rotation');
+      } else {
+        lightboxVideo.classList.remove('no-rotation');
+      }
 
       lightboxVideo.src = videoSource;
 
