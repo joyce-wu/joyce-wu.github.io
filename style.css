@@ -201,6 +201,8 @@ video.gallery-image {
 }
 
 .lightbox-caption {
+  position: relative;
+  margin-top: -12px;
   color: white;
 
   font-family: 'Open Sans', sans-serif;
@@ -278,7 +280,7 @@ video.gallery-image {
 
   align-items: center;
 
-  gap: 18px;
+  gap: 10px;
 }
 
 /* ---------------- */
