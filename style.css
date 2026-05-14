@@ -1,7 +1,8 @@
 .gallery {
   position: relative;
   width: 100%;
-  height: 5500px;
+
+  min-height: 760vh;
 }
 
 /* ---------------- */
