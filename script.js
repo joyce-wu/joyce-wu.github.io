@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const lightboxImage = document.getElementById('lightboxImage');
   const lightboxVideo = document.getElementById('lightboxVideo');
+  const lightboxCaption = document.getElementById('lightboxCaption');
 
   const closeButton = document.getElementById('closeButton');
 
@@ -22,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       lightboxVideo.style.display = 'none';
 
       lightboxImage.src = image.src;
+      lightboxCaption.textContent = image.dataset.title || '';
 
     });
 
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       lightboxVideo.load();
       lightboxVideo.play();
+      lightboxCaption.textContent = video.dataset.title || '';
 
     });
 
@@ -64,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lightboxVideo.pause();
     lightboxVideo.src = '';
-
+    lightboxCaption.textContent = '';
   }
 
   closeButton.addEventListener('click', closeLightbox);
