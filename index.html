@@ -121,26 +121,25 @@
 
   <!-- Lightbox -->
   <div class="lightbox" id="lightbox">
-  
     <span class="close-button" id="closeButton">&times;</span>
+    <div class="lightbox-content">
+      <img
+        class="lightbox-image"
+        id="lightboxImage"
+        src=""
+        alt=""
+      />
   
-    <img
-      class="lightbox-image"
-      id="lightboxImage"
-      src=""
-      alt=""
-    />
+      <video
+        class="lightbox-video"
+        id="lightboxVideo"
+        controls
+        autoplay
+        playsinline
+      ></video>
   
-    <video
-      class="lightbox-video"
-      id="lightboxVideo"
-      controls
-      autoplay
-      playsinline
-    ></video>
-  
-    <div class="lightbox-caption" id="lightboxCaption"></div>
-  
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
   </div>
 
   <script src="script.js"></script>
