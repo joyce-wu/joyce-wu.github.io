@@ -148,7 +148,7 @@ video.gallery-image {
 .triple-row {
   position: absolute;
 
-  top: 610vh;
+  top: 640vh;
   left: 50%;
 
   transform: translateX(-50%);
