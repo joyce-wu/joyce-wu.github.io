@@ -238,13 +238,15 @@ video.gallery-image {
 
   rotate: -90deg;
 
-  max-width: 85vh;
-  max-height: 85vw;
+  max-width: 72vh;
+  max-height: 72vw;
 
   object-fit: contain;
 
   box-shadow:
     0 20px 60px rgba(0,0,0,0.45);
+
+  margin-bottom: 48px;
 }
 
 .lightbox-video.no-rotation {
