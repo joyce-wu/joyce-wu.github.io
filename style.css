@@ -104,6 +104,8 @@ video.gallery-image {
 .image-8 {
   top: 345vh;
   right: 12vw;
+  max-width: 30vw;
+  max-height: 42vh;
 }
 
 .image-9  {
