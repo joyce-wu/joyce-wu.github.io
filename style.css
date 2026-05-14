@@ -201,24 +201,19 @@ video.gallery-image {
 }
 
 .lightbox-caption {
-  position: absolute;
-
-  bottom: 32px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
   color: white;
 
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
 
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
 
   text-align: center;
 
   opacity: 0.9;
+
+  z-index: 100001;
 }
 
 .lightbox.active {
